@@ -43,7 +43,6 @@ namespace MatrixExampleProject
             }
         }
 
-        /// <exception cref="ArgumentNullException"></exception>
         public Matrix(double[,] array)
         {
             if (array is null) throw new ArgumentNullException("Exception");
